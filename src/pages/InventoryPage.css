@@ -1,0 +1,131 @@
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000000; /* Texto negro */
+}
+
+/* Título principal */
+h2 {
+    color: #000000; /* Texto negro */
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Formulario de inventario */
+.inventory-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-form div {
+    flex-basis: 48%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.inventory-form label {
+    display: block;
+    font-weight: 600;
+    color: #000000; /* Texto negro */
+    margin-bottom: 8px;
+}
+
+.inventory-form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4ade80; /* Verde limón */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}
+
+.inventory-form input:focus {
+    border-color: #000000; /* Negro en el borde al enfocar */
+    outline: none;
+}
+
+/* Contenedores de gráficos */
+.chart-container {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #000000; /* Texto negro */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Información del inventario */
+.inventory-info {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #000000; /* Texto negro */
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-info p {
+    margin: 10px 0;
+    font-weight: 500;
+    color: #000000; /* Texto negro */
+}
+
+/* Gráficos */
+canvas {
+    margin-top: 20px;
+}
+
+/* Botón principal */
+.button {
+    background-color: #4ade80; /* Verde limón */
+    color: #000000; /* Texto negro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #86efac; /* Verde limón más claro */
+}
+
+/* Links */
+a {
+    color: #4ade80; /* Verde limón */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* General Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}

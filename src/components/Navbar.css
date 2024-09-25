@@ -1,0 +1,52 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #4ade80; /* Verde limón */
+    display: flex;
+    justify-content: center; /* Centrar todo el contenido */
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    margin-right: 15px; /* Espacio entre el logo y el título */
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar-title {
+    font-size: 1.8rem;
+    color: #000000; /* Blanco */
+    margin-right: 20px; /* Espacio entre el título y los enlaces */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000; /* Blanco */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #000000; /* Mantén blanco pero con un leve subrayado al pasar el mouse */
+  }
+  
+  /* Para el espaciado de los elementos debajo del navbar */
+  body {
+    padding-top: 80px; /* Ajuste por la altura del navbar */
+  }
+  

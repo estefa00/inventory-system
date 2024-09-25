@@ -1,0 +1,145 @@
+/* Contenedor principal */
+.reports-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9fafb; /* Fondo gris claro */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título */
+h2 {
+    font-size: 2.5rem;
+    color: #4ade80; /* Verde limón */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Formulario */
+.report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    padding: 15px;
+    border: 2px solid #4ade80; /* Verde limón */
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #333333; /* Letra negra */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-field:focus {
+    border-color: #86efac; /* Verde claro */
+    box-shadow: 0 0 10px rgba(72, 211, 173, 0.5); /* Sombra suave */
+}
+
+.input-file {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px dashed #4ade80; /* Borde verde limón */
+    border-radius: 10px;
+    background-color: #f0fdf4; /* Fondo blanco claro */
+    transition: border-color 0.3s;
+}
+
+.input-file:hover {
+    border-color: #86efac; /* Verde claro */
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: #4ade80;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #86efac;
+    transform: translateY(-3px);
+}
+
+/* Lista de reportes */
+.reports-list {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.report-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.report-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.report-info {
+    max-width: 70%;
+}
+
+.report-info p {
+    font-size: 1.1rem;
+    color: #333333; /* Letra negra */
+}
+
+.report-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Acciones de los reportes */
+.report-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #333333;
+    transition: transform 0.2s ease;
+}
+
+.icon-button:hover {
+    transform: scale(1.1);
+}
+
+.edit-button {
+    color: #f59e0b; /* Naranja */
+}
+
+.delete-button {
+    color: #ef4444; /* Rojo */
+}

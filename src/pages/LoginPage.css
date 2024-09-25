@@ -1,0 +1,73 @@
+/* Contenedor principal */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f4f4f9; /* Fondo suave */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+  }
+  
+  /* Logo */
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Título */
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Campos de entrada */
+  input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff; /* Fondo blanco para mejor legibilidad */
+    color: #333;
+    transition: border 0.3s ease;
+  }
+  
+  /* Efecto de enfoque en los campos de entrada */
+  input:focus {
+    border: 1px solid #4ade80; /* Verde limón */
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 222, 128, 0.5); /* Sombra verde suave */
+  }
+  
+  /* Botón de ingresar */
+  button {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    background-color: #4ade80; /* Verde limón */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Efecto hover en el botón */
+  button:hover {
+    background-color: #3bcf70; /* Verde más oscuro */
+    transform: translateY(-2px); /* Levanta ligeramente el botón */
+  }
+  
+  /* Efecto activo en el botón */
+  button:active {
+    background-color: #34c06a;
+    transform: translateY(0); /* Restablece la elevación */
+  }
+  

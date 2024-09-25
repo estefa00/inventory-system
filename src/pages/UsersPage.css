@@ -1,0 +1,98 @@
+/* Contenedor principal */
+.users-container {
+    max-width: 900px;
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+
+/* Títulos */
+h2 {
+    font-size: 2rem;
+    color: #4ade80; /* Verde limón */
+    margin-bottom: 20px;
+    text-align: center; /* Centra el texto */
+}
+
+/* Formulario */
+.users-form {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    justify-content: center; /* Centra los elementos del formulario */
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #4ade80; /* Verde limón */
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f0fdf4; /* Fondo blanco claro */
+    color: #333333; /* Texto gris oscuro */
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #86efac; /* Verde limón claro */
+}
+
+.add-button, .save-button {
+    padding: 10px 20px;
+    background-color: #4ade80; /* Fondo verde limón */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover, .save-button:hover {
+    background-color: #86efac; /* Verde limón claro */
+}
+
+/* Lista de usuarios */
+.users-list {
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center; /* Centra los elementos dentro de la cuadrícula */
+}
+
+.user-item {
+    background-color: #4ade80; /* Fondo verde limón */
+    color: #ffffff; /* Texto blanco */
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    transition: transform 0.3s, background-color 0.3s;
+    width: 100%; /* Asegura que los elementos ocupen el ancho completo */
+}
+
+.user-item:hover {
+    background-color: #86efac; /* Verde limón claro */
+    transform: translateY(-5px);
+}
+
+/* Botones de íconos */
+.actions {
+    display: flex;
+    justify-content: center; /* Centra los botones de acción */
+}
